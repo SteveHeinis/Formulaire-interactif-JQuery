@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="Style/stylesheets/style.css">
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+	<section class="formulaire col-xs-6 col-xs-push-3">
+		<div class="container-fluid">
+		<div class="row">
+		<div class="erreur">
+    		<p>Vous n'avez pas rempli correctement les champs du formulaire.</p>
+		</div>
+		</div>
+			<div class="row">
+				<form class="">
+     				<label for="pseudo">Pseudonyme</label> 
+     				<br/>
+     				<input type="text" id="pseudo" class="champ" /><br /><br />
+     				<div class="erreurpseudo">
+    				<p>Votre pseudo doit contenir plus de 5 caractères.</p>
+					</div>
+  					<label for="mdp">Mot de passe</label> 
+  					<br/>
+  					<input type="password" id="mdp" class="champ" /><br /><br />
+  					<div class="erreurmdp">
+    				<p>Votre mot de passe doit contenir plus de 5 caractères.</p>
+					</div>
+   					<label for="confirmation">Confirmation</label>		
+   					<br>
+   					<input type="password" id="confirmation" class="champ" /><br /><br/>
+   					<div class="erreurconfirmation">
+					<p> Les mots de passes sont différents.</p>
+					</div>	
+     				<label for="mail">E-mail</label> 
+     				<br/>
+     				<input type="text" id="mail"  	class="champ" /><br/><br/>
+     				<div class="erreurmail">
+					<p> L'adresse mail n'est pas valide.</p>
+					</div>	
+     				<input type="submit" id="envoi" value="Envoyer" /> <input type 		="reset" id="rafraichir" value="Rafraîchir" />
+				</form>
+		</div>
+		</div>
+	</section>
+<script
+src="http://code.jquery.com/jquery-3.2.1.js"
+integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+crossorigin="anonymous"></script>
+<script src="formulaire.js"></script>
+</body>
+</html>

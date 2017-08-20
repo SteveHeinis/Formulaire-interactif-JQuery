@@ -1,0 +1,31 @@
+/* line 1, ../sass/style.scss */
+.formulaire {
+  margin-top: 20px;
+}
+
+/* line 5, ../sass/style.scss */
+.erreur {
+  text-align: center;
+}
+
+/* line 9, ../sass/style.scss */
+.incorrect {
+  text-align: center;
+}
+
+/* line 13, ../sass/style.scss */
+.erreur {
+  color: red;
+  font-size: 15px;
+}
+
+/* line 18, ../sass/style.scss */
+.erreurpseudo, .erreurmdp, .erreurconfirmation, .erreurmail {
+  color: red;
+  font-size: 10px;
+}
+
+/* line 24, ../sass/style.scss */
+form {
+  text-align: center;
+}

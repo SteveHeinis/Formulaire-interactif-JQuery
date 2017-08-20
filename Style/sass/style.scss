@@ -1,0 +1,26 @@
+.formulaire {
+	margin-top: 20px;
+}
+
+.erreur {
+	text-align: center;
+}
+
+.incorrect {
+	text-align: center;
+}
+
+.erreur {
+	color: red;
+	font-size: 15px;
+}
+
+.erreurpseudo, .erreurmdp, .erreurconfirmation, .erreurmail {
+	color: red;
+	font-size: 10px;
+}
+
+
+form {
+	text-align: center;
+}
